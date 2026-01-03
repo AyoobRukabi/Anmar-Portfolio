@@ -59,8 +59,9 @@ export default function HomePage() {
               transition={{ duration: 0.6 }}
             >
               <div className="relative aspect-[3/4] bg-gray-100 max-w-md mx-auto lg:mx-0">
+                {/* UPDATED IMAGE SOURCE BELOW */}
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop"
+                  src="/images/anmar.jpg"
                   alt="Anmar"
                   fill
                   className="object-cover"
