@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Etusivu",
+    "work": "Portfolio",
+    "about": "Tietoa",
+    "contact": "Yhteystiedot"
+  },
+  "home": {
+    "hero": {
+      "name": "ANMAR",
+      "subtitle": "Visuaalinen Tarinankertoja",
+      "location": "Tampere → Bagdad",
+      "scroll": "Vieritä tutustuaksesi"
+    },
+    "featured": {
+      "title": "Valitut Projektit",
+      "viewAll": "Katso Kaikki Työt"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "filters": {
+      "all": "Kaikki",
+      "portraits": "Muotokuvat",
+      "events": "Tapahtumat",
+      "cinematic": "Elokuvallinen",
+      "commercial": "Kaupallinen"
+    }
+  },
+  "about": {
+    "title": "Tietoa Anmarista",
+    "hero": "Bagdadista Tampereelle, tallentaen tarinoita valon ja liikkeen kautta.",
+    "bio": "Anmar on visuaalinen taiteilija, joka on erikoistunut valokuvaukseen ja videokuvaukseen. Alun perin Irakista ja nyt Tampereella, Suomessa, hänen työnsä yhdistää kulttuuriperinnön pohjoismaiseen minimalismiin. Jokainen projekti on tutkimus tunteesta, kerronnasta ja aidoista hetkistä.",
+    "approach": {
+      "title": "Lähestymistapani",
+      "text": "Uskon, että jokaisen kuvan tulisi kertoa tarina. Prosessini yhdistää teknisen tarkkuuden taiteelliseen intuitioon, luoden töitä, jotka resonoivat emotionaalisesti säilyttäen elokuvallisen laadun."
+    },
+    "services": {
+      "title": "Palvelut",
+      "portrait": "Muotokuvavalokuvaus",
+      "event": "Tapahtumien Kuvaus",
+      "cinematic": "Elokuvallinen Videokuvaus",
+      "commercial": "Kaupalliset Projektit"
+    }
+  },
+  "contact": {
+    "title": "Luodaan Yhdessä",
+    "subtitle": "Onko sinulla projekti mielessä? Keskustellaan siitä, miten voimme toteuttaa visiosi.",
+    "form": {
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "message": "Viesti",
+      "send": "Lähetä Viesti",
+      "sending": "Lähetetään...",
+      "success": "Viesti lähetetty onnistuneesti!",
+      "error": "Jokin meni pieleen. Yritä uudelleen."
+    },
+    "info": {
+      "follow": "Seuraa",
+      "location": "Tampereella, Suomessa"
+    }
+  },
+  "footer": {
+    "rights": "Kaikki oikeudet pidätetään"
+  }
+}
