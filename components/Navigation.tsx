@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useLanguage } from '@/lib/language'
@@ -54,9 +55,18 @@ export default function Navigation() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-2xl md:text-3xl font-display font-bold text-yellow hover:opacity-80 transition-opacity"
+            // "ml-0" means 0 margin on the left. Change to "ml-4" or "ml-8" to move it right.
+            // "mt-2" would move it down slightly.
+            className="hover:opacity-80 transition-opacity flex items-center" 
           >
-            ANMAR
+            <Image 
+              src="/images/logo.png" // <--- UPDATE THIS FILENAME
+              alt="ANMAR"
+              width={120}  
+              height={40} 
+              // "object-contain" keeps the aspect ratio correct
+              className="h-12 w-auto object-contain" 
+            />
           </Link>
 
           {/* Desktop Navigation */}

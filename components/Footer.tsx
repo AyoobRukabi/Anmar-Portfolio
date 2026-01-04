@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useLanguage } from '@/lib/language'
 
 export default function Footer() {
@@ -17,11 +18,17 @@ export default function Footer() {
     <footer className="bg-black border-t border-gray-100 mt-24">
       <div className="container-custom section-padding py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-          {/* Brand */}
+          {/* --- Brand Section with Logo --- */}
           <div>
-            <h3 className="text-2xl font-display font-bold text-yellow mb-4">
-              ANMAR
-            </h3>
+            <Link href="/" className="inline-block mb-4 hover:opacity-80 transition-opacity">
+              <Image 
+                src="/images/logo.png" 
+                alt="ANMAR"
+                width={120}
+                height={40}
+                className="h-10 w-auto object-contain" 
+              />
+            </Link>
             <p className="text-gray-400 text-sm">
               Visual Storyteller
               <br />
