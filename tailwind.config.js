@@ -24,7 +24,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', '-apple-system', 'sans-serif'],
-        display: ['Playfair Display', 'serif'],
+        display: ['Anton', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },
       fontSize: {
